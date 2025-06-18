@@ -266,3 +266,23 @@ canvas {
   background-color: #f1f3f4;
 }
 
+.btn-nv {
+  display: inline-block;
+  background-color: #e60000; /* Vermelho intenso */
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(230, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+.btn-nv:hover {
+  background-color: #cc0000;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(204, 0, 0, 0.6);
+}
